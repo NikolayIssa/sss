@@ -1,0 +1,155 @@
+<!--
+                <div class="menu_section">
+                    <div class="menu_section_h1"><p>Напитки</p></div>
+                        <div class="form__select_item">
+
+                            <div class="form__select__item_img2">
+                                <img src="https://dostavka247.ru/assets/photos/2018/12/12/item_3427887_1.jpeg">
+                            </div>
+
+                            <div class="form__select__options__all">
+                            <h1>Безалкогольные 0,3L</h1>
+                                <div class="form__select__item_options">                                                       
+                                    <select class="form__select" id="select4">
+                                        <option disabled>Выберите Блюдо</option>
+                                        <option value="Не заказывать">Не заказывать</option>
+
+                                        <?php 
+                                                $drinksItems03L = get_DrinksItems03L_all();
+                                                foreach ($drinksItems03L as $drinksItems03): ?>
+                                            <option value="<?php echo $drinksItems03["Drink_name"] ?> <?php echo $drinksItems03["Drink_cost0,33L"] ?>р"><?php echo $drinksItems03["Drink_name"] ?></option>
+                                            <?php endforeach; ?>
+
+                                    </select>
+                                        <div class="buttons-plus_minus__PC">
+                                            <div class="button__plus">
+                                                <button class="btn-copy" type="button">+</button>
+                                            </div>
+                                            <div class="button__minus">
+                                                <button class="btn-del" type="button">-</button>
+                                            </div>
+                                        </div>
+                                </div>
+                                        <div class="buttons-plus_minus__mobile">
+                                            <div class="button__plus">
+                                                <button class="btn-copy" type="button">+</button>
+                                            </div>
+                                            <div class="button__minus">
+                                                <button class="btn-del" type="button">-</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="pizza__name-cost" id="js-result4">
+                                            </div>
+
+                                            <div>
+                                                <button id="js-button4" type="button">Цена</button>
+                                            </div> 
+                                </div>
+                        
+                            <div class="form__select__item_img">
+                                <img src="https://dostavka247.ru/assets/photos/2018/12/12/item_3427887_1.jpeg">
+                            </div>
+                        </div>
+
+                        <div class="form__select_item">
+
+                            <div class="form__select__item_img2">
+                                <img src="styles/img/assortiment/napitki/I7JjHdNnd-sqS9apHLs6Ad0giwElAmqQrzIAS51DqXXzy7uqRhGX3Sqg7-TGUXtk70fKTtOXBN-ommFSxrhC8ug.jpg">
+                            </div>
+
+                            <div class="form__select__options__all">
+                            <h1>Безалкогольные 0,5L</h1>
+                                <div class="form__select__item_options">                                                       
+                                    <select class="form__select" id="select5">
+                                        <option disabled>Выберите Блюдо</option>
+                                        <option value="Не заказывать">Не заказывать</option>
+
+                                        <?php 
+                                                $drinksItems05L = get_DrinksItems05L_all();
+                                                foreach ($drinksItems05L as $drinksItems05): ?>
+                                            <option value="<?php echo $drinksItems05["Drink_name"] ?> <?php echo $drinksItems05["Drink_cost0,5L"] ?>р"><?php echo $drinksItems05["Drink_name"] ?></option>
+                                            <?php endforeach; ?>
+
+                                    </select>
+                                        <div class="buttons-plus_minus__PC">
+                                            <div class="button__plus">
+                                                <button class="btn-copy" type="button">+</button>
+                                            </div>
+                                            <div class="button__minus">
+                                                <button class="btn-del" type="button">-</button>
+                                            </div>
+                                        </div>
+                                </div>
+                                        <div class="buttons-plus_minus__mobile">
+                                            <div class="button__plus">
+                                                <button class="btn-copy" type="button">+</button>
+                                            </div>
+                                            <div class="button__minus">
+                                                <button class="btn-del" type="button">-</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="pizza__name-cost" id="js-result5">
+                                            </div>
+
+                                            <div>
+                                                <button id="js-button5" type="button">Цена</button>
+                                            </div> 
+                                </div>
+                        
+                            <div class="form__select__item_img">
+                                <img src="styles/img/assortiment/napitki/I7JjHdNnd-sqS9apHLs6Ad0giwElAmqQrzIAS51DqXXzy7uqRhGX3Sqg7-TGUXtk70fKTtOXBN-ommFSxrhC8ug.jpg">
+                            </div>
+                        </div>
+                
+                    <div class="form__select_item">
+                            <div class="form__select__item_img2">
+                                <img src="https://sakura-balashiha.ru/wp-content/uploads/2021/05/kola-1-l-768x768.jpg">
+                            </div>
+
+                            <div class="form__select__options__all">
+                                <h1>Безалкогольные 1L</h1>
+                                    <div class="form__select__item_options">                                                       
+                                        <select class="form__select" id="select6">
+                                            <option disabled>Выберите Блюдо</option>
+                                            <option value="Не заказывать">Не заказывать</option>
+
+                                            <?php 
+                                                    $drinksItems1L = get_DrinksItems1L_all();
+                                                    foreach ($drinksItems1L as $drinksItems1): ?>
+                                                <option value="<?php echo $drinksItems1["Drink_name"] ?> <?php echo $drinksItems1["Drink_cost1L"] ?>р"><?php echo $drinksItems1["Drink_name"] ?></option>
+                                                <?php endforeach; ?>
+
+                                        </select>
+                                            <div class="buttons-plus_minus__PC">
+                                                <div class="button__plus">
+                                                    <button class="btn-copy" type="button">+</button>
+                                                </div>
+                                                <div class="button__minus">
+                                                    <button class="btn-del" type="button">-</button>
+                                                </div>
+                                            </div>
+                                    </div>
+                                        <div class="buttons-plus_minus__mobile">
+                                            <div class="button__plus">
+                                                <button class="btn-copy" type="button">+</button>
+                                            </div>
+                                            <div class="button__minus">
+                                                <button class="btn-del" type="button">-</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="pizza__name-cost" id="js-result6">
+                                        </div>
+
+                                            <div>
+                                                <button id="js-button6" type="button">Цена</button>
+                                            </div> 
+                            </div>
+
+                        <div class="form__select__item_img">
+                            <img src="https://sakura-balashiha.ru/wp-content/uploads/2021/05/kola-1-l-768x768.jpg">
+                        </div>
+                    </div>
+                                                    -->

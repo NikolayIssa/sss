@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/form_style.css">
+    <script src="scripts/form_script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $(".btn-copy").on('click', function(){
+            var ele = $(this).closest('.form__select_item').clone(true);
+            $(this).closest('.form__select_item').after(ele);
+            })
+        })
+
+        $(function(){
+            $(".btn-del").on('click', function(){
+            $(this).closest('.form__select_item').hide();
+            })
+        })
+    </script>
+    <div class="main__conteinter">
+        <div class="form__block">
+            <div class="h1_form">
+                <h1>Оформление заказа</h1>
+            </div>
+            <form method="post">
+                <div class="form__select_item">
+
+                    <div class="form__select__item_img2">
+                        <img src="styles/img/assortiment/ramen/100007830.jpg">
+                    </div>
+
+                    <div class="form__select__options__all">
+                        <div class="form__select__item_options">
+                            <select class="form__select">
+                                    <option disabled>Выберите Пиццу</option>
+                                    <option value="Не заказывать">Не заказывать</option>
+                                    <option value="Пеперон">Пеперони</option>
+                                    <option value="4 Сыра">4 Сыра</option>
+                                    <option value="С морскими продуктами">С морскими продуктами</option>
+                                    <option value="Крыса Лариса">Крыса Лариса</option>
+                            </select>
+                                <div class="buttons-plus_minus__PC">
+                                    <div class="button__plus">
+                                        <button class="btn-copy" type="button">+</button>
+                                    </div>
+                                    <div class="button__minus">
+                                        <button class="btn-del" type="button">-</button>
+                                    </div>
+                                </div>
+                        </div>
+                            <div class="form__select__item_options__size">
+                                <select class="form__select">
+                                        <option disabled>Выберите Размер</option>
+                                        <option value="30см">30см</option>
+                                        <option value="40см">40см</option>
+                                </select>
+                            </div>
+                                <div class="buttons-plus_minus__mobile">
+                                    <div class="button__plus">
+                                        <button class="btn-copy" type="button">+</button>
+                                    </div>
+                                    <div class="button__minus">
+                                        <button class="btn-del" type="button">-</button>
+                                    </div>
+                                </div>
+                    </div>
+                    
+                        <div class="form__select__item_img">
+                            <img src="styles/img/assortiment/ramen/100007830.jpg">
+                        </div>
+                </div>
+
+                <div class="form__select_item">
+
+                    <div class="form__select__item_img2">
+                        <img src="styles/img/assortiment/rcwHgZJgzsviTt49qcxcmGQZUPbvZIQHiBq9L7oEn1iZcE-rAKWxPEH-Z2XJ7a-bjSjXyRS0B7FBwagcc2H0d0M.jpg">
+                    </div>
+
+                    <div class="form__select__options__all">
+                        <div class="form__select__item_options">
+                            <select class="form__select">
+                                    <option disabled>Выберите Пиццу</option>
+                                    <option value="Не заказывать">Не заказывать</option>
+                                    <option value="Пеперон">Пеперони</option>
+                                    <option value="4 Сыра">4 Сыра</option>
+                                    <option value="С морскими продуктами">С морскими продуктами</option>
+                                    <option value="Крыса Лариса">Крыса Лариса</option>
+                            </select>
+                                <div class="buttons-plus_minus__PC">
+                                    <div class="button__plus">
+                                        <button class="btn-copy" type="button">+</button>
+                                    </div>
+                                    <div class="button__minus">
+                                        <button class="btn-del" type="button">-</button>
+                                    </div>
+                                </div>
+                        </div>
+                            <div class="form__select__item_options__size">
+                                <select class="form__select">
+                                        <option disabled>Выберите Размер</option>
+                                        <option value="30см">30см</option>
+                                        <option value="40см">40см</option>
+                                </select>
+                            </div>
+                                <div class="buttons-plus_minus__mobile">
+                                    <div class="button__plus">
+                                        <button class="btn-copy" type="button">+</button>
+                                    </div>
+                                    <div class="button__minus">
+                                        <button class="btn-del" type="button">-</button>
+                                    </div>
+                                </div>
+                    </div>
+                    
+                        <div class="form__select__item_img">
+                            <img src="styles/img/assortiment/rcwHgZJgzsviTt49qcxcmGQZUPbvZIQHiBq9L7oEn1iZcE-rAKWxPEH-Z2XJ7a-bjSjXyRS0B7FBwagcc2H0d0M.jpg">
+                        </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
